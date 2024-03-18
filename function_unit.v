@@ -1,18 +1,12 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Filename: function_unit.v
-// Author:	 Griffin Price
-// Created:	 15 March 2024
-// Version:  1.1 (Last Edited: 18 March 2024)
-// Description: The function unit should take the operands OpA, OpB from the  
+// Author: Griffin Price
+// Created: 15 March 2024
+// Version: 1.1 (Last Edited: 18 March 2024)
+// Description: The function unit takes the operands OpA, OpB from the  
 // ROM in the top level entity, and the inputs SW[9:6] from the DE10-Lite board 
 // to select the operation.  The outputs are the 8-bit result and 4 status bits, 
 // which can be displayed on LEDs[7:0] on the DE10-Lite board.
-//
-//  **************************************************
-//  This file is the only Verilog file that you should modify.
-//  It should be properly commented and formatted.
-//  **************************************************
-//
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Do not change the port declarations
